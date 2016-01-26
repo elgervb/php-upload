@@ -1,0 +1,36 @@
+{
+	"name" : "elgervb/php-upload",
+	"description" : "PHP Upload",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Elger van Boxtel",
+			"email" : "elgervb@gmail.com",
+			"homepage" : "http://elgervanboxtel.nl",
+			"role" : "developer"
+		}
+	],
+	"keywords" : [
+		"php upload"
+	],
+	"homepage" : "https://github.com/elgervb/gulp-php",
+	"license" : [
+		"MIT"
+	],
+	"require-dev" : {
+		"phpunit/phpunit" : "^4.8"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"upload" : [
+				"src",
+				"tests"
+			]
+		}
+	},
+	"support" : {
+		"wiki" : "https://github.com/elgervb/php-upload/wiki",
+		"source" : "https://github.com/elgervb/php-upload",
+		"issues" : "https://github.com/elgervb/php-upload/issues",
+		"email" : "elgervb@gmail.com"
+	}
+}
