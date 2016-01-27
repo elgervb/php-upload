@@ -180,7 +180,7 @@ class UploadManager
 	}
 	
 	/**
-	 * Returns all uploaded files
+	 * Returns all uploaded files, prior to validation and upload. Thus returning a list of uploaded files from the tmp-upload dir
 	 *
 	 * @return \ArrayIterator with UploadedFile
 	 */
@@ -276,7 +276,7 @@ class UploadManager
 	 *
 	 * @throws UploadException on error
 	 */
-	private function validateUploads()
+	public function validateUploads()
 	{
 		// if there are no files to validate...
 		if ($this->files->count() === 0)
