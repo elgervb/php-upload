@@ -1,7 +1,7 @@
 {
   "name": "php-upload",
   "version": "1.0.0",
-  "description": ""PHP Upload",
+  "description": "PHP Upload",
   "main": "",
   "directories": {
     "test": "tests"
