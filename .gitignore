@@ -45,3 +45,4 @@ node_modules/
 vendor/
 composer.phar
 composer.lock
+yarn.lock
